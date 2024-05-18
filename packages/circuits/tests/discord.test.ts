@@ -13,11 +13,11 @@ describe("Discord email test", function () {
 
   let rawEmail: Buffer;
   let circuit: any;
-  const ethAddress = "0xCbcAC0388501E5317304D7Da1Ee3a082Df67336d";
+  const ethAddress = "0x7C2b36D164A50765c1C16aE4542a4903e6A1f0BA";
 
   beforeAll(async () => {
     rawEmail = fs.readFileSync(
-      path.join(__dirname, "./emls/discord-test.eml"),
+      path.join(__dirname, "./emls/discord-test-x.eml"),
       "utf8"
     );
 

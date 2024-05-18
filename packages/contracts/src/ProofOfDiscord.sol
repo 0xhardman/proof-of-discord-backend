@@ -111,10 +111,10 @@ contract ProofOfDiscord is ERC721Enumerable {
     }
 
     function _beforeTokenTransfer(
-        address from,
-        address to,
-        uint256 tokenId
-    ) internal {
+        address from
+        // address to,
+        // uint256 tokenId
+    ) internal pure {
         require(
             from == address(0),
             "Cannot transfer - VerifiedEmail is soulbound"

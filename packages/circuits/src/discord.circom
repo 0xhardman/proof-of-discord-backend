@@ -1,8 +1,8 @@
 pragma circom 2.1.5;
 
-include "@zk-email/zk-regex-circom/circuits/common/from_addr_regex.circom";
-include "@zk-email/circuits/email-verifier.circom";
-include "@zk-email/circuits/utils/regex.circom";
+include "../../../node_modules/@zk-email/zk-regex-circom/circuits/common/from_addr_regex.circom";
+include "../../../node_modules/@zk-email/circuits/email-verifier.circom";
+include "../../../node_modules/@zk-email/circuits/utils/regex.circom";
 include "./discord-reset-regex.circom";
 
 
